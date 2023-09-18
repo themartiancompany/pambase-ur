@@ -2,12 +2,12 @@
 # Contributor: Dave Reisner <dreisner@archlinux.org>
 
 pkgname=pambase
-pkgver=20221020
+pkgver=20230918
 pkgrel=1
 pkgdesc="Base PAM configuration for services"
 arch=(any)
 url="https://www.archlinux.org"
-license=(GPL)
+license=(GPL-3.0-or-later)
 backup=(
   etc/pam.d/system-auth
   etc/pam.d/system-local-login
