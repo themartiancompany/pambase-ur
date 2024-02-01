@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: AGPL-3.0
+#
+# Maintainer: Pellegrino Prevete <pellegrinoprevete@gmail.com>
+# Maintainer: Truocolo <truocolo@aol.com>
 # Maintainer: David Runge <dvzrv@archlinux.org>
 # Contributor: Dave Reisner <dreisner@archlinux.org>
 
@@ -41,4 +45,4 @@ package() {
   install -vDm 644 "${source[@]}" -t "$pkgdir/etc/pam.d/"
 }
 
-# vim:set ts=2 sw=2 et:
+# vim: ft=sh syn=sh et
